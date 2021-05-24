@@ -1,0 +1,75 @@
+body{
+    background-image: url(img/bg.png);
+}
+
+.MainContent{
+    width: 100%;
+
+}
+
+.container{
+    background-color: white !important;
+}
+
+
+.mainContent {   
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+
+
+    
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    
+    margin-left: 25px;
+
+    text-align: justify;
+
+
+    padding-top: 20px;
+    
+    
+}
+
+.images{
+    width: 70%;
+}
+
+
+.ddd{
+ margin-left: 60px;
+}
+
+
+.container{
+
+    overflow: auto;
+}
+
+hr{
+
+    border: 1px solid rgb(88, 88, 88) !important;
+    
+    margin-top: -10px !important;
+
+    clear: both;
+
+    width: 80%;
+
+}
+
+.footer{
+    clear: both;
+    font-size: 18px;
+    margin: 60px;
+
+    font-weight: bold;
+}
+
+
+a{
+    font-weight: normal;
+}
+
